@@ -61,7 +61,7 @@ bash test_multi_baron_human_bar.sh
 The results will be saved in 'Hi-LANDER/results/' and 'centre/'
 
 
-### MeHi-SCC
+# MeHi-SCC
 
 After Hilander, we go back to the MeHi-SCC directory and run the script we provided.
 
@@ -75,6 +75,9 @@ The datasets used for MeHi-SCC are hosted by the following services.
 
 In addition, we provided some pre-training results under 'centre/' to get the best clustering results.
 
+We provide a script as an example.
+
+For training & testing on baron_human, one can run
 ```bash
 bash test_multi_baron_human.sh
 ```
