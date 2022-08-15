@@ -1,6 +1,6 @@
 ![MeHi-SCC](https://user-images.githubusercontent.com/110893478/184567421-4f9dcca8-3ee0-4257-b7f3-14c6d7882bef.png)
 
-## title
+# title
 ================================================================
 
 This folder contains the official code for [Learning Hierarchical Graph Neural Networks for Image Clustering](https://arxiv.org/abs/2107.01319). ##后续要改为本文的链接
@@ -24,13 +24,15 @@ python setup.py install
 cd ../
 ```
 
-## Hilander
+# Hilander
 
 这里要添加Hilander的作用
 
 ## Data
 
-The datasets used for training and test are prepared in 'Hi-LANDER/data/'
+The datasets used for training and testing are hosted by the following services.
+
+[BaiduPan](https://pan.baidu.com/s/11t4Likcz-Yj0kMbdYSjqOA) (pwd: 6ylh)
 
 ## Training
 
@@ -59,7 +61,7 @@ bash test_multi_baron_human_bar.sh
 The results will be saved in 'Hi-LANDER/results/' and 'centre/'
 
 
-## MeHi-SCC
+### MeHi-SCC
 
 After Hilander, we go back to the MeHi-SCC directory and run the script we provided.
 
