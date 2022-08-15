@@ -65,6 +65,14 @@ The results will be saved in 'Hi-LANDER/results/' and 'centre/'
 
 After Hilander, we go back to the MeHi-SCC directory and run the script we provided.
 
+## Data
+
+The datasets used for MeHi-SCC are hosted by the following services.
+
+[BaiduPan](https://pan.baidu.com/s/1EXgsVMNyjegV6wrDdmw0fw) (pwd: dl82)
+
+## Training & Testing
+
 In addition, we provided some pre-training results under 'centre/' to get the best clustering results.
 
 ```bash
