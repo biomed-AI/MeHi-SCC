@@ -34,6 +34,8 @@ The datasets used for training and testing are hosted by the following services.
 
 [BaiduPan](https://pan.baidu.com/s/11t4Likcz-Yj0kMbdYSjqOA) (pwd: 6ylh)
 
+You should unpack the downloaded data and put it under 'hi-lander/data'
+
 ## Training
 
 We provide training script as an example.
@@ -45,7 +47,7 @@ cd Hi-LANDER
 bash train_baron_human.sh
 ```
 
-The trained model will be saved in 'Hi-LANDER/check/' as a file with '.ckpt' suffix.
+The trained model will be saved in 'Hi-LANDER/checkpoint/' as a file with '.ckpt' suffix.
 
 
 ## Testing
@@ -70,6 +72,8 @@ After Hilander, we go back to the MeHi-SCC directory and run the script we provi
 The datasets used for MeHi-SCC are hosted by the following services.
 
 [BaiduPan](https://pan.baidu.com/s/1EXgsVMNyjegV6wrDdmw0fw) (pwd: dl82)
+
+You should unpack the downloaded data and put it under 'data/'
 
 ## Training & Testing
 
