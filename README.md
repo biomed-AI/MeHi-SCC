@@ -1,4 +1,6 @@
-文章题目
+![MeHi-SCC](https://user-images.githubusercontent.com/110893478/184567421-4f9dcca8-3ee0-4257-b7f3-14c6d7882bef.png)
+
+## title
 ================================================================
 
 This folder contains the official code for [Learning Hierarchical Graph Neural Networks for Image Clustering](https://arxiv.org/abs/2107.01319). ##后续要改为本文的链接
