@@ -1,10 +1,10 @@
 ![MeHi-SCC](https://user-images.githubusercontent.com/110893478/184567421-4f9dcca8-3ee0-4257-b7f3-14c6d7882bef.png)
-
+#
 # MeHi-SCC: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data
 ================================================================
 
 This folder contains the official code for MeHi-SCC: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data. ## need to be updated
-
+##
 ## Setup
 
 We use python 3.8. The CUDA version needs to be 11.6. Besides DGL (>=0.5.2), we depend on several packages. To install dependencies using conda:
@@ -23,23 +23,23 @@ cd clustering-benchmark
 python setup.py install
 cd ../
 ```
-
+#
 # MeHi-SCC
-
+#
 ## Hilander
 
 Hilander is a detachable clusterer with Meta-learning
-
+#
 ### Data
-
+#
 The datasets used for training and testing are hosted by the following services.
 
 [BaiduPan](https://pan.baidu.com/s/11t4Likcz-Yj0kMbdYSjqOA) (pwd: 6ylh)
 
 You should unpack the downloaded data and put it under 'hi-lander/data'
-
+#
 ### Training
-
+#
 We provide training script as an example.
 
 For training on baron_human, one can run
@@ -51,9 +51,9 @@ bash train_baron_human.sh
 
 The trained model will be saved in 'Hi-LANDER/checkpoint/' as a file with '.ckpt' suffix.
 
-
+#
 ### Testing
-
+#
 We provide testing script as an example.
 
 ```bash
@@ -62,21 +62,21 @@ bash test_multi_baron_human_bar.sh
 ```
 The results will be saved in 'Hi-LANDER/results/' and 'centre/'
 
-
+#
 ## Self-supervised optimization
-
+#
 After Hilander, we go back to the MeHi-SCC directory and run the script we provided.
-
+#
 ### Data
-
+#
 The datasets used for MeHi-SCC are hosted by the following services.
 
 [BaiduPan](https://pan.baidu.com/s/1EXgsVMNyjegV6wrDdmw0fw) (pwd: dl82)
 
 You should unpack the downloaded data and put it under 'data/'
-
+#
 ### Training & Testing
-
+#
 In addition, we provided some pre-training results under 'centre/' to get the best clustering results.
 
 We provide a script as an example.
