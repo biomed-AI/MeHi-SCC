@@ -4,6 +4,9 @@
 ================================================================
 
 This folder contains the official code for MeHi-SCC: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data. ## need to be updated
+#
+# MeHi-SCC
+
 ##
 ## Setup
 
@@ -23,8 +26,6 @@ cd clustering-benchmark
 python setup.py install
 cd ../
 ```
-#
-# MeHi-SCC
 
 ## Hilander
 
