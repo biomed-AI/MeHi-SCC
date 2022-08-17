@@ -7,7 +7,6 @@ This folder contains the official code for MeHi-SCC: A Meta-learning based Graph
 #
 # MeHi-SCC
 
-##
 ## Setup
 
 We use python 3.8. The CUDA version needs to be 11.6. Besides DGL (>=0.5.2), we depend on several packages. To install dependencies using conda:
