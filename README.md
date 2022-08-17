@@ -25,7 +25,7 @@ cd ../
 ```
 #
 # MeHi-SCC
-#
+
 ## Hilander
 
 Hilander is a detachable clusterer with Meta-learning
@@ -64,7 +64,7 @@ The results will be saved in 'Hi-LANDER/results/' and 'centre/'
 
 #
 ## Self-supervised optimization
-#
+
 After Hilander, we go back to the MeHi-SCC directory and run the script we provided.
 #
 ### Data
