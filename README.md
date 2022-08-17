@@ -1,9 +1,9 @@
 ![MeHi-SCC](https://user-images.githubusercontent.com/110893478/184567421-4f9dcca8-3ee0-4257-b7f3-14c6d7882bef.png)
 
-# title
+# MeHi-SCC: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data
 ================================================================
 
-This folder contains the official code for [Learning Hierarchical Graph Neural Networks for Image Clustering](https://arxiv.org/abs/2107.01319). ##后续要改为本文的链接
+This folder contains the official code for MeHi-SCC: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data. ## need to be updated
 
 ## Setup
 
@@ -24,11 +24,13 @@ python setup.py install
 cd ../
 ```
 
-# Hilander
+# MeHi-SCC
 
-这里要添加Hilander的作用
+## Hilander
 
-## Data
+Hilander is a detachable clusterer with Meta-learning
+
+### Data
 
 The datasets used for training and testing are hosted by the following services.
 
@@ -36,7 +38,7 @@ The datasets used for training and testing are hosted by the following services.
 
 You should unpack the downloaded data and put it under 'hi-lander/data'
 
-## Training
+### Training
 
 We provide training script as an example.
 
@@ -50,7 +52,7 @@ bash train_baron_human.sh
 The trained model will be saved in 'Hi-LANDER/checkpoint/' as a file with '.ckpt' suffix.
 
 
-## Testing
+### Testing
 
 We provide testing script as an example.
 
@@ -61,11 +63,11 @@ bash test_multi_baron_human_bar.sh
 The results will be saved in 'Hi-LANDER/results/' and 'centre/'
 
 
-# MeHi-SCC
+## Self-supervised optimization
 
 After Hilander, we go back to the MeHi-SCC directory and run the script we provided.
 
-## Data
+### Data
 
 The datasets used for MeHi-SCC are hosted by the following services.
 
@@ -73,7 +75,7 @@ The datasets used for MeHi-SCC are hosted by the following services.
 
 You should unpack the downloaded data and put it under 'data/'
 
-## Training & Testing
+### Training & Testing
 
 In addition, we provided some pre-training results under 'centre/' to get the best clustering results.
 
