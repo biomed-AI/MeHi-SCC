@@ -17,7 +17,7 @@ conda install pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=11.6 -c pytorch # 
 conda install -y faiss-gpu=1.7.2 -c pytorch # install faiss gpu version matching cuda 11.6
 pip install future==0.18.2 numpy==1.19.5 pandas==1.4.2 tensorflow==2.4.4 umap-learn==0.5.3 scipy==1.5.3 sklearn
 
-pip install dgl==0.8.2 # install dgl
+pip install dgl # install dgl
 
 pip install tqdm # install tqdm
 git clone https://github.com/yjxiong/clustering-benchmark.git # install clustering-benchmark for evaluation
