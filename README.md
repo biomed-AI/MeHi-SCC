@@ -11,10 +11,10 @@ This folder contains the official code for MeHi-SCC: A Meta-learning based Graph
 
 We use python 3.8. The CUDA version needs to be 11.6. Besides DGL (>=0.5.2), we depend on several packages. To install dependencies using conda:
 ```bash
-conda create -n MeHi-SCC python==3.8.4# create env
+conda create -n MeHi-SCC python==3.8.4 # create env
 conda activate MeHi-SCC # activate env
 conda install pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=11.6 -c pytorch # install pytorch 1.11 version
-conda install -y cudatoolkit=11.6 faiss-gpu=1.7.2 -c pytorch # install faiss gpu version matching cuda 11.6
+conda install -y faiss-gpu=1.7.2 -c pytorch # install faiss gpu version matching cuda 11.6
 pip install future==0.18.2 numpy==1.19.5 pandas==1.4.2 tensorflow==2.4.4 umap-learn==0.5.3 scipy==1.5.3 sklearn
 
 pip install dgl==0.8.2 # install dgl
