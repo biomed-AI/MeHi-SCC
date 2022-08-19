@@ -37,7 +37,7 @@ The datasets used for training and testing are hosted by the following services.
 
 [BaiduPan](https://pan.baidu.com/s/11t4Likcz-Yj0kMbdYSjqOA) (pwd: 6ylh)
 
-You should unpack the downloaded data and put it under 'hi-lander/data'
+You should unpack the downloaded data and put it under 'Hi-LANDER/data'
 #
 ### Training
 #
@@ -47,6 +47,8 @@ For training on baron_human, one can run
 
 ```bash
 cd Hi-LANDER
+mkdir logs
+mkdir checkpoint
 bash train_baron_human.sh
 ```
 
