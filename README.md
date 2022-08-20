@@ -49,6 +49,7 @@ For training on baron_human, one can run
 cd Hi-LANDER
 mkdir logs
 mkdir checkpoint
+mkdir results
 bash train_baron_human.sh
 ```
 
