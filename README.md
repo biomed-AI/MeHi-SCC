@@ -58,7 +58,7 @@ The trained model will be saved in 'Hi-LANDER/checkpoint/' as a file with '.ckpt
 #
 ### Testing
 #
-We provide testing script in "Hi-LANDER" as an example.
+We provide testing script in "Hi-LANDER/" as an example.
 
 ```bash
 bash test_multi_baron_human_bar.sh
