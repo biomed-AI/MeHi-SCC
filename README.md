@@ -15,7 +15,7 @@ conda create -n MeHi-SCC python==3.8.4 # create env
 conda activate MeHi-SCC # activate env
 conda install pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=11.6 -c pytorch # install pytorch 1.11 version
 conda install -y faiss-gpu=1.7.2 -c pytorch # install faiss gpu version matching cuda 11.6
-pip install future==0.18.2 numpy==1.19.5 pandas==1.4.2 tensorflow==2.4.4 umap-learn==0.5.3 scipy==1.5.3 sklearn
+pip install future==0.18.2 numpy==1.19.5 pandas==1.4.2 tensorflow==2.4.4 umap-learn==0.5.3 scipy==1.5.3 sklearn scanpy==1.8.2
 
 pip install dgl # install dgl
 
