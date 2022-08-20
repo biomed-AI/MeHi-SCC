@@ -35,7 +35,7 @@ Hilander is a detachable clusterer with Meta-learning
 #
 The datasets used for training and testing are hosted by the following services.
 
-[BaiduPan](https://pan.baidu.com/s/11t4Likcz-Yj0kMbdYSjqOA) (pwd: 6ylh)
+[BaiduPan](https://pan.baidu.com/s/11t4Likcz-Yj0kMbdYSjqOA) (pwd: 6ylh) or [Dropbox](https://www.dropbox.com/s/ilpf0akneoee0qb/data.zip?dl=0)
 
 You should unpack the downloaded data and put it under 'Hi-LANDER/data'
 #
@@ -74,7 +74,7 @@ After Hilander, we go back to the MeHi-SCC directory and run the script we provi
 #
 The datasets used for MeHi-SCC are hosted by the following services.
 
-[BaiduPan](https://pan.baidu.com/s/1EXgsVMNyjegV6wrDdmw0fw) (pwd: dl82)
+[BaiduPan](https://pan.baidu.com/s/1EXgsVMNyjegV6wrDdmw0fw) (pwd: dl82) or [Dropbox](https://www.dropbox.com/s/olvjfsel44jrzzg/baron_human.csv?dl=0)
 
 You should unpack the downloaded data and put it under 'data/'
 #
