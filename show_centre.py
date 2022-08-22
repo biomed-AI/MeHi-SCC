@@ -160,7 +160,7 @@ def train_mehiscc(dataset, args):
 
     args.n_clusters = centre1.shape[0]
 
-    model = GraphSCC(512, 256, 64, 64, 256, 512,
+    model = MeHiSCC(512, 256, 64, 64, 256, 512,
                 n_input=args.n_input,
                 n_z=args.n_z,
                 n_clusters=args.n_clusters,
