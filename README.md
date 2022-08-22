@@ -86,6 +86,7 @@ We provide a script as an example.
 
 For training & testing on baron_human, one can run
 ```bash
+mkdir results
 bash test_multi_baron_human.sh
 ```
 
