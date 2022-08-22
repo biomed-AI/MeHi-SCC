@@ -199,7 +199,7 @@ if __name__ == "__main__":
         description='train',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    # GraphSCC Settings
+    # MeHi-SCC Settings
     parser.add_argument('--name', type=str, default='klein')
     parser.add_argument('--pre_lr', type=float, default=1e-4)
 
