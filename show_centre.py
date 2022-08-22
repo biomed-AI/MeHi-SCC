@@ -245,7 +245,7 @@ if __name__ == "__main__":
     args.n_clusters = len(np.unique(dataset.y))
     args.n_input = dataset.x.shape[1]
 
-    train_graphscc(dataset, args)
+    train_mehiscc(dataset, args)
 
     print("End Time : ")
     print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
