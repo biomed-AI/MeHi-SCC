@@ -62,11 +62,11 @@ class AE(nn.Module):
         return x_bar, enc_h1, enc_h2, enc_h3, z
 
 
-class GraphSCC(nn.Module):
+class MeHiSCC(nn.Module):
 
     def __init__(self, n_enc_1, n_enc_2, n_enc_3, n_dec_1, n_dec_2, n_dec_3,
                  n_input, n_z, n_clusters, args, v=1):
-        super(GraphSCC, self).__init__()
+        super(MeHiSCC, self).__init__()
 
         # autoencoder for intra information
         self.ae = AE(
@@ -130,7 +130,7 @@ def plot_centre(z, center_z, ground_truth, args, xbar=None, center_full=None):
     sc.pp.neighbors(formatting, n_neighbors=15, use_rep='X')
     sc.tl.umap(formatting)
     sc.pl.umap(formatting, color=["cell_type", "centers"],
-               save="_Centers_GraphSCC_v4_" + args.name + "_Z_k_" + str(args.knn_k) +
+               save="_Centers_MeHi_SCC_" + args.name + "_Z_k_" + str(args.knn_k) +
                     "_l_" + str(args.levels) + "_t_" + str(args.tau) + "_ct_" + str(args.cent_type) + ".png")
 
     if xbar is not None and center_full is not None:
@@ -143,16 +143,16 @@ def plot_centre(z, center_z, ground_truth, args, xbar=None, center_full=None):
         sc.pp.neighbors(formatting, n_neighbors=15, use_rep='X')
         sc.tl.umap(formatting)
         sc.pl.umap(formatting, color=["cell_type","centers"],
-                   save="_Centers_GraphSCC_v4_" + args.name + "_Xbar_k_" + str(args.knn_k) +
+                   save="_Centers_MeHi_SCC_" + args.name + "_Xbar_k_" + str(args.knn_k) +
                        "_l_" + str(args.levels) + "_t_" + str(args.tau) + ".png")
 
 
 
-def train_graphscc(dataset, args):
+def train_mehiscc(dataset, args):
     # Calculate Clustering Centre
     print("Loading Clustering Centre ......")
     # centre1, centre2, centre3, centre4, y_pred_last = find_cluster_centre(features=xbar.cpu().numpy(), device=args.device, args=args)
-    centre_path = "/home/panzx/GraphSCC_v4/centre/"
+    centre_path = "centre/"
     centre_file = centre_path + 'centre_' + args.name + '_k_' + str(args.knn_k) + '_l_' + str(
         args.levels) + '_t_' + str(args.tau) + '.pkl'
     with open(centre_file, 'rb') as f:
