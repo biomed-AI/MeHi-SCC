@@ -1,7 +1,7 @@
 from __future__ import print_function, division
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 import torch
 import torch.nn as nn
@@ -443,8 +443,8 @@ if __name__ == "__main__":
     torch.cuda.set_device(args.device)
     print("use cuda: {}".format(args.cuda))
 
-    os.environ["CUDA_VISIBLE_DEVICES"] = args.cuda_no
-    import torch
+    #os.environ["CUDA_VISIBLE_DEVICES"] = args.cuda_no
+    #import torch
     print(torch.cuda.get_device_name(0))
     print(torch.cuda.current_device())
     args.device = torch.device("cuda" if args.cuda else "cpu")
