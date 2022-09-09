@@ -93,5 +93,4 @@ bash test_multi_baron_human.sh
 You can then find the resulting visualization in 'figures/'
 # 
 # Citation
-# 
 Zixiang Pan, Yuefan Lin, Haokun Zhang, Yuansong Zeng, Weijiang Yu, Yuedong Yang bioRxiv 2022.09.06.506784; doi: https://doi.org/10.1101/2022.09.06.506784
