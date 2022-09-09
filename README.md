@@ -3,7 +3,7 @@
 # MeHi-SCC: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data
 ================================================================
 
-The codes and datasets for MeHi-SCC: [A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data](https://doi.org/10.1101/2022.09.06.506784)
+For method details, please refer to our paper: [A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data](https://doi.org/10.1101/2022.09.06.506784)
 #
 # MeHi-SCC
 
