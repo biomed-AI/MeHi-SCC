@@ -3,7 +3,7 @@
 # MeHi-SCC: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data
 ================================================================
 
-This folder contains the official code for MeHi-SCC: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data. ## need to be updated
+This folder contains the official code for MeHi-SCC: [A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data](https://doi.org/10.1101/2022.09.06.506784)
 #
 # MeHi-SCC
 
@@ -91,3 +91,7 @@ bash test_multi_baron_human.sh
 ```
 
 You can then find the resulting visualization in 'figures/'
+#
+#Citation
+#
+Zixiang Pan, Yuefan Lin, Haokun Zhang, Yuansong Zeng, Weijiang Yu, Yuedong Yang bioRxiv 2022.09.06.506784; doi: https://doi.org/10.1101/2022.09.06.506784
